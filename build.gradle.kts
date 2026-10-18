@@ -8,6 +8,7 @@ plugins {
 }
 
 kotlin {
+    jvmToolchain(21)
     jvm("desktop")
 
     sourceSets {
@@ -30,6 +31,7 @@ kotlin {
 compose.desktop {
     application {
         mainClass = "com.pomodoro.MainKt"
+        javaHome = System.getenv("JAVA_HOME") ?: System.getProperty("java.home")
 
         nativeDistributions {
             targetFormats(TargetFormat.Msi, TargetFormat.Exe)
