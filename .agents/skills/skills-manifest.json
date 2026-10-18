@@ -1,0 +1,80 @@
+{
+  "projectName": "pomodoro-timer",
+  "platform": "windows",
+  "generatedAt": "2026-10-18T04:18:00+01:00",
+  "bundledSkillsCount": 9,
+  "skills": [
+    {
+      "id": "APT-001",
+      "name": "Kotlin",
+      "file": "APT-001 - Kotlin.md",
+      "status": "Required",
+      "category": "Platform & Base Architecture",
+      "role": "Core language and shared business logic"
+    },
+    {
+      "id": "APT-003",
+      "name": "Jetpack-Compose",
+      "file": "APT-003 - Jetpack-Compose.md",
+      "status": "Required",
+      "category": "UI, State & Navigation",
+      "role": "Declarative UI toolkit across multiplatform targets"
+    },
+    {
+      "id": "APT-004",
+      "name": "Material-3",
+      "file": "APT-004 - Material-3.md",
+      "status": "Required",
+      "category": "UI, State & Navigation",
+      "role": "Design system and Material 3 desktop components"
+    },
+    {
+      "id": "APT-005",
+      "name": "StateFlow",
+      "file": "APT-005 - StateFlow.md",
+      "status": "Required",
+      "category": "UI, State & Navigation",
+      "role": "Reactive state management and timer tick observation"
+    },
+    {
+      "id": "APT-013",
+      "name": "kotlinx-serialization",
+      "file": "APT-013 - kotlinx-serialization.md",
+      "status": "Required",
+      "category": "Data & Networking",
+      "role": "Lightweight JSON serialization for local session logs and timer settings"
+    },
+    {
+      "id": "APT-167",
+      "name": "Coroutine-Dispatchers",
+      "file": "APT-167 - Coroutine-Dispatchers.md",
+      "status": "Required",
+      "category": "Concurrency & Dispatching",
+      "role": "Thread scheduling between UI and disk I/O operations"
+    },
+    {
+      "id": "APT-185",
+      "name": "Compose-Desktop-JVM",
+      "file": "APT-185 - Compose-Desktop-JVM.md",
+      "status": "Required",
+      "category": "Platform & Base Architecture",
+      "role": "Desktop JVM target runner and packaging pipeline for Windows"
+    },
+    {
+      "id": "APT-190",
+      "name": "CMP-Resources",
+      "file": "APT-190 - CMP-Resources.md",
+      "status": "Required",
+      "category": "UI, State & Navigation",
+      "role": "Multiplatform resource management for icons, localized strings and fonts"
+    },
+    {
+      "id": "APT-191",
+      "name": "Compose-Desktop-Window-Tray-Menu",
+      "file": "APT-191 - Compose-Desktop-Window-Tray-Menu.md",
+      "status": "Required",
+      "category": "UI, State & Navigation",
+      "role": "Windows system tray icon, window lifecycle, and tray notifications"
+    }
+  ]
+}
